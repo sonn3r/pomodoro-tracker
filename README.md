@@ -29,3 +29,25 @@ Pomodoro Tracker дає змогу користувачам організува
 ```bash
 git clone https://github.com/your-username/pomodoro-tracker.git
 cd pomodoro-tracker
+```
+
+### Крок 2: Встановлення залежностей
+Використовуйте npm або yarn для встановлення всіх необхідних залежностей:
+
+```bash
+npm install
+# або
+yarn install
+```
+
+### Крок 3: Запуск сервера
+Запустіть проект за допомогою Expo CLI:
+
+```bash
+npx expo start
+```
+Ця команда відкриє Expo Developer Tools у вашому браузері. Ви зможете запустити застосунок на пристрої або емуляторі.
+
+### Крок 4: Запуск на пристрої
+- **Android**: Завантажте Expo Go з Google Play, скануйте QR-код із Expo Developer Tools.
+- **iOS**: Завантажте Expo Go з App Store, скануйте QR-код.

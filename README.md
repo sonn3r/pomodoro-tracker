@@ -1,50 +1,31 @@
-# Welcome to your Expo app 👋
+# Pomodoro Tracker
+![image](https://github.com/user-attachments/assets/b225236b-f50a-4e92-84b4-40d0fa2e7ad5)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+**Pomodoro Tracker** — мобільний додаток для реалізації техніки Pomodoro, яка допомагає ефективно керувати часом. Додаток дозволяє налаштувати тривалість робочих інтервалів та перерв, а також надає функцію таймера з можливістю отримання сповіщень по завершенню кожного інтервалу.
 
-1. Install dependencies
+## Опис
 
-   ```bash
-   npm install
-   ```
+Pomodoro Tracker дає змогу користувачам організувати свій час за допомогою популярної техніки Pomodoro, де робочі сесії чергуються з короткими перервами. Користувачі можуть налаштовувати тривалість сесій, і додаток автоматично перемикається між робочим часом та перервою, показуючи залишковий час.
 
-2. Start the app
+## Функціональність
 
-   ```bash
-    npx expo start
-   ```
+- **Налаштування тривалості сесій**:
+  - Можливість налаштувати тривалість робочої сесії (Focus) та перерви (Break).
+  
+- **Таймер**:
+  - Початок і зупинка таймера.
+  - Таймер перемикається між робочими і перервними сесіями.
 
-In the output, you'll find options to open the app in a
+## Технології
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **React Native**: Для створення крос-платформного мобільного додатка для Android та iOS.
+- **Expo**: Для швидкої розробки та тестування мобільних додатків на React Native.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Установка
 
-## Get a fresh project
-
-When you're ready, run:
+### Крок 1: Клонування репозиторію
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/your-username/pomodoro-tracker.git
+cd pomodoro-tracker

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "TaskPlanner",
-    "slug": "TaskPlanner",
+    "name": "pomodoroTracker",
+    "slug": "pomodoroTracker",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -20,7 +20,7 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "https://e7.pngegg.com/pngimages/888/855/png-clipart-vegetarian-cuisine-tomate-frito-tomato-pizza-computer-icons-tomato-food-leaf-thumbnail.png"
     },
     "plugins": [
       "expo-router",
